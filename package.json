@@ -1,0 +1,18 @@
+{
+  "name": "officail-vanila-html-google-clone",
+  "version": "0.0.1",
+  "description": "this official google clone is done by vanila html css",
+  "keywords": "",
+  "license": "",
+  "author": "D.H.Thisaru dasith",
+  "scripts": {
+    "close": "",
+    "build": "parcel build index.html",
+    "dev": " parcel watch index.html"
+    
+    
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
