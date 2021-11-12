@@ -1,17 +1,19 @@
 {
   "name": "officail-vanila-html-google-clone",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "this official google clone is done by vanila html css",
-  "keywords": "",
-  "license": "",
+  "keywords": ["google","clone"],
+  "license": "MIT",
   "author": "D.H.Thisaru dasith",
   "scripts": {
-    "close": "",
-    "build": "parcel build index.html",
-    "dev": " parcel watch index.html"
+    "close": "rm -rf dist",
+    "build": "parcel build index.html 404.html",
+    "dev": " parcel watch index.html",
+    "start": "npm run build && npm run dev"
     
     
   },
+  
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
   }
